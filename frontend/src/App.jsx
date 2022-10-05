@@ -8,6 +8,7 @@ class App extends Component {
       .then(r => r.json())
       .then(d => {
         console.log(d);
+        console.log("object");
       });
   }
 
