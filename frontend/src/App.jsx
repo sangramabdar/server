@@ -4,7 +4,7 @@ import "./App.css";
 
 class App extends Component {
   componentDidMount() {
-    fetch("https://server-chi-ten.vercel.app/ssda")
+    fetch("https://server-iota-six.vercel.app/ssda")
       .then(r => r.json())
       .then(d => {
         console.log(d);
