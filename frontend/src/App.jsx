@@ -9,6 +9,7 @@ class App extends Component {
       .then(d => {
         console.log(d);
         console.log(process.env.NAME);
+        console.log("first");
       });
   }
 
